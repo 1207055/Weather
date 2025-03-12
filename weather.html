@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Search</h1>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="searchBtn">Search</button>
+        <div class="toggle-container">
+            <label for="unitToggle">Toggle °C/°F</label>
+            <input type="checkbox" id="unitToggle">
+        </div>
+        <div id="weatherResult">
+            <h2 id="cityName"></h2>
+            <div id="weatherIcon" src="c:\Users\Dell\Downloads\stickers-sun-and-cloud.jpg-removebg-preview.png">
+    
+                <img id="weatherImg" src="c:\Users\Dell\Downloads\stickers-sun-and-cloud.jpg-removebg-preview.png" alt="Weather Icon">
+            </div>
+            <p id="temperature"></p>
+            <p id="weatherDescription"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+            <p id="errorMessage" class="error-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
